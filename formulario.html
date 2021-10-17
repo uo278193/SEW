@@ -32,27 +32,7 @@
         </section>
 
         <form name = "Formulario">
-            <!--
-            <p><label>Nombre completo: <input></label></p>
-            <p><label>Telefono: <input type=tel></label></p>
-            <p><label>Correo: <input type=email></label></p>
-
-            <fieldset>
-                <legend> Franja de edad </legend>
-                <p><label> <input type=radio name=size> Entre 6 y 20 años </label></p>
-                <p><label> <input type=radio name=size> Entre 21 y 50 años </label></p>
-                <p><label> <input type=radio name=size> Mayor de 50 años </label></p>
-            </fieldset>
-            -->
-              <!-- este elemento nos permite seleccionar mas de una opcion -->
-              <!--
-            <fieldset>
-                <legend> ¿Estudias en uniovi? </legend>
-                <p><label> <input type=checkbox> Si </label></p>
-                <p><label> <input type=checkbox> No </label></p>
-            </fieldset>
-             <p><label>¡Danos tu opinion!: <textarea></textarea></label></p>
-            -->
+           
             <label for="nombreCompleto">Nombre Completo:</label> 
             <input type="text" name="nombreCompleto" id="nombreCompleto" />
             <label for="telefono">Telefono:</label> 
@@ -60,15 +40,17 @@
             <label for="Correo">Correo:</label> 
             <input type="email" name="Correo" id="Correo" />
 
+            <p>
+                <input type="radio" name="age" id="6" value="Entre 6 y 20 años" />
+                  <label for="6">Entre 6 y 20 años</label><br/>
+                <input type="radio" name="age" id="21" value="Entre 21 y 50 años"/>
+                  <label for="21">Entre 21 y 50 años </label><br/>
+                <input type="radio" name="age" id="50" value="Mayor de 50 años"/>
+                  <label for="50">Mayor de 50 años</label><br/>
+                <input type="submit" value="Purchase Donuts"/>
+            </p>
          
-           
-               
-
-
-
-
-
-
+       
         </form>
 
 
