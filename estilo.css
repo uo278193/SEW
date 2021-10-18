@@ -10,7 +10,7 @@ body {
 /*Especificidad: 001*/
 h1 {
   color: #fff;    
-  background-color:#f81d00; 
+  background-color:#413f3f; 
   text-transform: uppercase;
   padding: 2em; 
   text-align: center;     
@@ -18,7 +18,7 @@ h1 {
   /*Especificidad: 001*/
   h2 {
     color: #fff;    
-    background-color:#f7e604; 
+    background-color:#7e7e7e; 
     text-transform: uppercase;
     padding: 2em; 
     text-align: center;     
@@ -29,10 +29,21 @@ h1 {
     flex-flow: row;
     flex: auto;
     color: #fff;    
-    background-color:#ff1e00; 
+    background-color:#7e7e7e; 
     padding: 2em; 
     text-align: center;  
 
   }
+
+  section{
+    display:flex;
+    flex-flow: column;
+    flex: auto;
+    color: #fff;    
+    background-color:#413f3f; 
+    padding: 2em; 
+    text-align: center; 
+  }
+  
 
 
