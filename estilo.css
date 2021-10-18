@@ -3,14 +3,35 @@ body {
   font-family: Tahoma, sans-serif;
   color: #818181;
   background-color: #fff;
+  display:flex;
+  flex-flow: column;
+  flex: auto;
   }
 /*Especificidad: 001*/
 h1 {
   color: #fff;    
-  background-color:#FF5733; 
+  background-color:#f81d00; 
   text-transform: uppercase;
   padding: 2em; 
   text-align: center;     
+  }
+  h2 {
+    color: #fff;    
+    background-color:#f7e604; 
+    text-transform: uppercase;
+    padding: 2em; 
+    text-align: center;     
+    }
+
+  main{
+    display:flex;
+    flex-flow: row;
+    flex: auto;
+    color: #fff;    
+    background-color:#ff1e00; 
+    padding: 2em; 
+    text-align: center;  
+
   }
 
 
