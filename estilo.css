@@ -15,6 +15,7 @@ h1 {
   padding: 2em; 
   text-align: center;     
   }
+  /*Especificidad: 001*/
   h2 {
     color: #fff;    
     background-color:#f7e604; 
@@ -22,7 +23,7 @@ h1 {
     padding: 2em; 
     text-align: center;     
     }
-
+/*Especificidad: 001*/
   main{
     display:flex;
     flex-flow: row;
