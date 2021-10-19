@@ -1,12 +1,15 @@
 /*Especificidad: 001*/
 body {
   font-family: Tahoma, sans-serif;
-  font-size: 5ex;
+  font-size: 3ex;
   color: #818181;
   background-color: #fff;
   display:flex;
   flex-flow: column;
   flex: auto;
+  padding: 1;
+  border: 1ex solid #7e7e7e;
+
   }
 /*Especificidad: 001*/
 h1 {
@@ -32,10 +35,11 @@ h1 {
     color: #fff;    
     background-color:#7e7e7e; 
     padding: 2em; 
+    
     text-align: center;  
 
   }
-
+/*Especificidad: 001*/
   section{
     display:flex;
     flex-flow: column;
@@ -44,6 +48,20 @@ h1 {
     background-color:#413f3f; 
     padding: 2em; 
     text-align: center; 
+  }
+
+/*Especificidad: 001*/
+  form{
+    background-color:#413f3f; 
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+    padding-left:15em ;
+    padding-right:15em ;
+  }
+
+/*Especificidad: 002*/
+  form>p{
+    
   }
   
 
