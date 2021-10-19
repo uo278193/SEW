@@ -71,10 +71,7 @@ h1 {
 /*Especificidad: 001*/
   form{
     background-color:#413f3f; 
-    padding-top: 2em; 
-    padding-bottom: 2em; 
-    padding-left:32em ;
-    padding-right:32em ;
+    padding: 2em;
   }
 
 /*Especificidad: 002*/
