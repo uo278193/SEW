@@ -84,6 +84,10 @@ h1 {
     background-color:#c5c4c4; 
     text-align: center; 
   }
+
+  footer>p{
+    color: rgb(0, 0, 0);
+  }
   /*Especificidad: 001*/
   table{
     padding: 2%; 
