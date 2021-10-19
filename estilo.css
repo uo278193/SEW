@@ -21,7 +21,7 @@ body {
 /*Especificidad: 001*/
   nav{
     color: #fff;    
-    background-color:#7e7e7e; 
+    background-color:#d3d3d3; 
     text-transform: uppercase;
     text-align: center;     
   }
