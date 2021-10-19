@@ -9,6 +9,7 @@ body {
   flex: auto;
   padding: 1;
   border: 1ex solid #7e7e7e;
+  text-align: justify;
 
   }
 /*Especificidad: 001*/
