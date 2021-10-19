@@ -67,6 +67,9 @@ h1 {
   form{
     background-color:#413f3f; 
     padding: 2em;
+    margin: 0 auto;
+    border: 1ex solid #000000;
+    
   }
 
 /*Especificidad: 002*/
