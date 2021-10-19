@@ -71,6 +71,7 @@ h1 {
     margin: 0 auto;
     border: 1ex solid #000000;
     
+    
   }
 
 /*Especificidad: 002*/
@@ -78,13 +79,14 @@ h1 {
     text-align: left;
   }
 
+
 /*Especificidad: 001*/
   footer{
     padding: 2%; 
     background-color:#c5c4c4; 
     text-align: center; 
   }
-
+/*Especificidad: 002*/
   footer>p{
     color: rgb(0, 0, 0);
   }
@@ -96,7 +98,7 @@ h1 {
     border-collapse:colllapse ;
     text-align: center; 
   }
-
+/*Especificidad: 002*/
   table>caption{
     background-color: #000000;
     color: #fff; 
@@ -123,7 +125,7 @@ h1 {
     height:auto;
     max-width: 1000ex;
   }
-
+/*Especificidad: 002*/
   footer>video{
     width: 100%;
     height:auto;
