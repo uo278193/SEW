@@ -107,6 +107,12 @@ h1 {
   table>tbody{
     border: 1ex solid #5c5b5b;
   }
+
+  figure{
+    width: 100%;
+    height:auto;
+    max-width: 100ex;
+  }
   
 
 
