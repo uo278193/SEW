@@ -25,12 +25,6 @@ body {
     text-transform: uppercase;
     text-align: center;     
   }
-/*Especificidad: 002*/
-  nav>li{
-    display:flex;
-  flex-flow: row;
-  text-align: center;   
-  }
 
 /*Especificidad: 001*/
 h1 {
