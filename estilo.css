@@ -1,7 +1,7 @@
 /*Especificidad: 001*/
 body {
   font-family: Tahoma, sans-serif;
-  font-size: 3ex;
+  font-size: 2ex;
   color: #818181;
   background-color: #fff;
   display:flex;
@@ -12,11 +12,29 @@ body {
 
   }
 /*Especificidad: 001*/
-h1 {
-  color: #fff;    
+  header{
+    color: #fff;    
   background-color:#413f3f; 
   text-transform: uppercase;
   padding: 2em; 
+  }
+/*Especificidad: 001*/
+  nav{
+    color: #fff;    
+    background-color:#7e7e7e; 
+    text-transform: uppercase;
+    text-align: center;     
+  }
+/*Especificidad: 002*/
+  nav>li{
+    display:flex;
+  flex-flow: row;
+  text-align: center;   
+  }
+
+/*Especificidad: 001*/
+h1 {
+  
   text-align: center;     
   }
   /*Especificidad: 001*/
@@ -55,13 +73,20 @@ h1 {
     background-color:#413f3f; 
     padding-top: 2em; 
     padding-bottom: 2em; 
-    padding-left:15em ;
-    padding-right:15em ;
+    padding-left:32em ;
+    padding-right:32em ;
   }
 
 /*Especificidad: 002*/
-  form>p{
-    
+  form>fieldset{
+    text-align: left;
+  }
+
+
+  footer{
+    padding: 2em; 
+    background-color:#413f3f; 
+    text-align: center; 
   }
   
 
